@@ -1,4 +1,4 @@
-public class ContohVariabelNoAbsen {
+public class ContohVariabel19 {
     public static void main(String[] args) {
         String salahSatuHobbySayaAdalah = "bermain petak umpet";
         boolean isPandai = true;
