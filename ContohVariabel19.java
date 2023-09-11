@@ -6,6 +6,7 @@ public class ContohVariabel19 {
         byte umurSayaSekarang = 19;
         double $ipk = 3.24,tinggi = 1.70;
         System.out.println(salahSatuHobbySayaAdalah);
+        System.out.println("Apakah pandai?"+ isPandai);
         System.out.println("JenisKelamin: " + JenisKelamin);
         System.out.println("umurku saat ini: " + umurSayaSekarang);
         System.out.println(String.format("Saya beripk %s, dengan tinggi badan %s" , $ipk, tinggi));
