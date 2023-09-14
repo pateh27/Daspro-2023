@@ -1,14 +1,14 @@
 public class ContohVariabel19 {
     public static void main(String[] args) {
-        String salahSatuHobbySayaAdalah = "bermain petak umpet";
+        String salahSatuHobbySayaAdalah = "bermain sepakbola";
         boolean isPandai = true;
-        char JenisKelamin = 'L';
-        byte umurSayaSekarang = 19;
-        double $ipk = 3.24,tinggi = 1.70;
+        char hurufAwalSoundsystem = 'S';
+        byte tanggalLahirSaya = 27;
+        double nilaiUTS= 90,nilaiUAS = 92;
         System.out.println(salahSatuHobbySayaAdalah);
         System.out.println("Apakah pandai?"+ isPandai);
-        System.out.println("JenisKelamin: " + JenisKelamin);
-        System.out.println("umurku saat ini: " + umurSayaSekarang);
-        System.out.println(String.format("Saya beripk %s, dengan tinggi badan %s" , $ipk, tinggi));
+        System.out.println("Huruf awal soundsystem: " + hurufAwalSoundsystem);
+        System.out.println("tanggal lahirku: " + tanggalLahirSaya);
+        System.out.println(String.format("Nilai UTS saya smt 1 %s, Nilai UAS saya smt 1 %s" , nilaiUTS,nilaiUAS));
     }
 } 
