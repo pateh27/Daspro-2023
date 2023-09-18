@@ -7,19 +7,21 @@ public class HargaBayar19 {
         Scanner input =new Scanner(System.in);
 
         int harga, jumlah, jumlahHalBuku;
-        double dis=0.5, total, bayar, jmlDis;
+        double dis, total, bayar, jmlDis;
         String MerkBuku = "Vision";
 
         System.out.println("Masukkan harga barang yang dibeli");
         harga=input.nextInt();
         System.out.println("Masukkan Jumlah jumlah barang yang dibeli ");
         jumlah=input.nextInt();
-        System.out.println("Masukkan Halam Buku");
+        System.out.println("Masukkan Halaman Buku");
         jumlahHalBuku=input.nextInt();
         System.out.println("Merk Buku");
-        System.out.println(MerkBuku);
+        MerkBuku = input.next();
+        System.out.println("Masukkan Diskon");
+        dis = input.nextDouble();
 
-        jumlahHalBuku=harga*jumlah;
+        
         
         
         total=harga*jumlah;
