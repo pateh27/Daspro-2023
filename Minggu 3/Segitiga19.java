@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Segitiga19 {
    public static void main(String[] args) {
-    try (Scanner sc = new Scanner(System.in)) {
+       (Scanner sc = new Scanner (System.in)) {
         int alas, tinggi;
         float luas;
         System.out.print("Masukkan alas: ");
