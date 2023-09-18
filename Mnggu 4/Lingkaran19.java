@@ -6,13 +6,13 @@ import java.util.Scanner;
 
 public interface Lingkaran19 {
     public static void main(String[] args) {
-     Scanner sc =new Scanner(System.in);
+     Scanner input=new Scanner(System.in);
      
      int r;
      double keliling, luas;
 
      System.out.println("masukkan jari-jari lingkaran: ");
-     r=sc.nextInt();
+     r=input.nextInt();
 
      keliling= 2*3.14*r;
      luas=3.14*r*r;
