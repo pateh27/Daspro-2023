@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 
 public interface Lingkaran19 {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
      Scanner input=new Scanner(System.in);
      
