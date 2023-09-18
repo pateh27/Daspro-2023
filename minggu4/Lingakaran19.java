@@ -7,7 +7,7 @@ public class Lingakaran19 {
         Scanner input =new Scanner(System.in);
 
         int r;
-        double keliling , luas;
+        double keliling , luas, phi = 3.14;
 
         System.out.println("Masukkan jari-jari lingkaran: ");
         r=input.nextInt();
