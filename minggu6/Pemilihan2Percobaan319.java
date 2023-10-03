@@ -26,7 +26,7 @@ public class Pemilihan2Percobaan319 {
         } else if (kategori.equals("pebisnis")) {
             if (penghasilan <= 2500000)
                 pajak = 0.15;
-            else if (penghasilan <= 3000000)
+            else if (penghasilan <= 3500000)
                 pajak = 0.2;
             else 
                 pajak = 0.25;
