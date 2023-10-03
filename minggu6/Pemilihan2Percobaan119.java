@@ -8,17 +8,19 @@ public class Pemilihan2Percobaan119 {
         int tahun;
         System.out.println("Masukkan Tahun");
         tahun = input19.nextInt();
-        String hasil = "Bukan tahun kabisat";
-        if ((tahun % 100) == 0) {
+        
+        if ((tahun % 100) == 0) 
             if ((tahun % 100) != 0)
                 System.out.println("Tahun Kabisat");    
-            
-
-        }   else 
-                if ((tahun % 400) == 0) {
-                    hasil "Tahun Kabisat";
-                }            
-                System.out.println("Bukan Tahun Kabisat");
+               else 
+                if ((tahun % 400) == 0) 
+                    System.out.println("Tahun kabisat");
+                else
+                    System.out.println("Bukan Tahun kabisat");
+            else 
+                System.out.println("Bukan tahun kabisat");  
+                      
+                
     }
              
 }
