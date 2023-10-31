@@ -16,9 +16,12 @@ public class Bisoskop19 {
        
         System.out.println(penonton.length);
         
-    for (String[] barisPenonton : penonton) {
-        System.out.println("Panjang baris: " + barisPenonton.length);
-    }
-
+        for (String[] barisPenonton : penonton) {
+            System.out.println("Panjang baris: " + barisPenonton.length);
+        }
+        System.out.println("Penonton pada baris ke-3: ");
+        for (String i : penonton[2]) {
+            System.out.println(i);
+        }
     }
 }
