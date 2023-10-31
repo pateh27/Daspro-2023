@@ -36,5 +36,6 @@ public class ArrayrataNilai19 {
 
     System.out.println("Rata-rata nilai lulus = " + ratalulus);
     System.out.println("Ratta-rata nilai tidak lulus = " + rataTdkLulus);
+    System.out.println("Banyaknya mahasiswa yang lulus : "+totalLulus);
   }
 }
