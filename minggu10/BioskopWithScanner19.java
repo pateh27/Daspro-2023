@@ -6,9 +6,9 @@ public class BioskopWithScanner19 {
         
         int baris, kolom;
         String nama, next;
-
+      
         String[][] penonton = new String[4][2];
-
+        int index = 0;
         while (true) {
             System.out.print("Masukkan nama: ");
             nama = sc.nextLine();
@@ -25,7 +25,22 @@ public class BioskopWithScanner19 {
 
             if (next.equalsIgnoreCase("n")) {
                 break;
+            }   
+        }   
+        System.out.println("Masukkan nama penonton : ");
+        while (index < penonton.length) {
+            nama = sc.nextLine();
+
+            if (nama.equalsIgnoreCase("n")) {
+                break;
             }
+            penonton[index][0] = "Penonton " + (index+1);
+            penonton[index][1] = nama;
+            index++;
         }
-    }
+        System.out.println("Daftar penonton: ");
+        for (int i = 0; i < index; i++){
+            System.out.println(penonton[i][0] + ": " + penonton[i][1]);
+        } 
+    }  
 }
