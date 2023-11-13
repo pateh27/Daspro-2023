@@ -21,9 +21,6 @@ public class individu119 {
                 System.out.println();
             }
         }
-    }
+        input.close();
+    } 
 }
-
-
-
-
