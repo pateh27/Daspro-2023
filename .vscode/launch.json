@@ -1,0 +1,51 @@
+
+
+// Deklarasi fungsi
+void fungsi1() {
+    std::cout << "Ini adalah fungsi 1\n";
+}
+
+void fungsi2() {
+    std::cout << "Ini adalah fungsi 2\n";
+}
+
+void fungsi3() {
+    std::cout << "Ini adalah fungsi 3\n";
+}
+
+int main() {
+    int pilihan;
+
+    do {
+        // Menampilkan menu
+        std::cout << "Pilih fungsi (1-3), atau 0 untuk keluar: ";
+        std::cin >> pilihan;
+
+        // Switch case untuk memilih fungsi
+        switch(pilihan) {
+            case 1:
+                fungsi1();
+                break;
+            case 2:
+                fungsi2();
+                break;
+            case 3:
+                fungsi3();
+                break;
+            case 0:
+                std::cout << "Keluar dari program.\n";
+                break;
+            default:
+                std::cout << "Pilihan tidak valid. Coba lagi.\n";
+        }
+    } while(pilihan != 0);
+
+    return 0;
+}
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": []
+}
