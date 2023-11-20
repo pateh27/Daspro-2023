@@ -16,6 +16,6 @@ public class individu319 {
                 }
             }
             System.out.println();
-        }
+        } sc.close();
     }
 }

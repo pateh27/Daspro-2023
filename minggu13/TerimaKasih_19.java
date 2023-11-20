@@ -13,4 +13,4 @@ public class TerimaKasih_19 {
         UcapanTambahan(ucapan);
         }
 
-    }   
+}   

@@ -32,6 +32,6 @@ public class NestedLoop_2341720119 {
         for (int i = 0; i < rerata.length; i++) {
             System.out.println("Rata-rata kota ke-" + (i+1) + " : " + rerata[i]);
         }
-
+        sc.close();
     }
 }

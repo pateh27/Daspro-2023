@@ -24,5 +24,6 @@ public class Quiz19 {
             menu = input.nextLine().charAt(0);
         } while (menu=='y' || menu=='Y');
         System.out.println("Terima kasih sudah bermain");
-    }
+        input.close();
+    }  
 }
