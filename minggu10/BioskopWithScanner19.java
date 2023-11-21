@@ -60,5 +60,6 @@ public class BioskopWithScanner19 {
                 break;
             }
         }
+        sc.close();
     }
 }
