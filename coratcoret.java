@@ -36,7 +36,7 @@ public class coratcoret {
             System.out.println(penonton[i][0] + ": " + penonton[i][1]);
         }
 
-        scanner.close();
+        
     
     }
 }
