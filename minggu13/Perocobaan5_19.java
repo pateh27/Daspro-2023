@@ -1,18 +1,18 @@
 package minggu13;
 
 public class Perocobaan5_19 {
-    static void tampil(String str, int... a){
-        System.out.println("String: " + str);
-        System.out.println("Jumlah argumen/parametri: " + a.length);
+    public static void main(String[] args){
+        printValues("Numbers;", 1,2,3,4);
+        printValues("Strings:","A","B","C","D");
+    }
+    public static void printValues(String label, Object... values){
+        System.out.println(label+ " ");
 
-        for (int i : a) {
-            System.out.println(i + " ");
+        for (Object value : values) {
+            System.out.println(value+ " ");
         }
         System.out.println();
     }
-    public static void main(String[] args) {
-        tampil("Daspro 2019", 100, 200);
-        tampil("Teknologi Informasi", 1, 2, 3, 4, 5);
-        tampil("Polinema");
-    }
+    
+         
 }
