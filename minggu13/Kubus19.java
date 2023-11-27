@@ -1,7 +1,6 @@
 package minggu13;
 import java.util.Scanner;
 
-import javax.swing.text.StyledEditorKit;
 public class Kubus19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -14,6 +13,7 @@ public class Kubus19 {
         per = hitungPermukaan(sisi);
         System.out.println("Besar volume : "+v);
         System.out.println("Besaran permukaan : "+per);
+        sc.close();
     }
     static int hitungVolume(int a){
         int vol = a*a*a;

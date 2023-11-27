@@ -80,6 +80,6 @@ public class Tugas2 {
         //Output nilai tertinggi dan minggu dari nilai tersebut
         cariNilaiMaks(nilaiMhs, nilaiTertinggi);
         System.out.println("Nilai tertinggi adalah " +nilaiTertinggi[0] + " di Minggu ke-" + nilaiTertinggi[1]);
-
+        sc.close();
     }
 }

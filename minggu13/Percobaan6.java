@@ -28,5 +28,6 @@ public class Percobaan6 {
 
         vol=p*l*t;
         System.out.println("Volume balok adalah "+vol);
+        sc.close();
     }   
 }
