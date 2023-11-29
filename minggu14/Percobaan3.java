@@ -23,6 +23,8 @@ public class Percobaan3 {
 
         System.out.print("Jumlah saldo setelah "+ tahun + " tahun : ");
         System.out.print(hitungLabs(saldoAwal, tahun));
+
+        sc.close();
     }
     
 
